@@ -57,6 +57,8 @@ http://127.0.0.1:8000/ || http://localhost:8000/
 
 # Como funciona
 
+Primero nos conectamos a la base de datos de mysql mediante la libreria de mysql.connector , donde indicamos nuestras credenciales , despues ejecutamos el script para obtener todos los datos de los empleados , comvertimos los datos en DataFrames para asi generar las grafica de barras y circular , pero todo eso se hace cuando hacemos la llamada al puerto 8000 , donde por defecto se ejecutara esta funcion 
+
 # Renderizar la plantilla con los datos y gráficos
 
 Renderizamos en una plantilla ( / templates / index.html)
