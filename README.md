@@ -12,10 +12,9 @@ pip install -r requirements.txt
 
 # Creacion base de datos
 
-Hize un script para la creacion de la base de datos y mediante python poder ejecutarlo y cre
+Hize un script para la creacion de la base de datos y mediante python poder ejecutarlo 
 
-### Creacion de la base de datos | Uso | Creacion de la tabla | Inserccion de los datos | use requisistos python
-
+### Creacion de la base de datos | Uso | Creacion de la tabla | Inserccion de los datos 
 ```sh
 CREATE SCHEMA pythonprueba;
 
@@ -39,13 +38,16 @@ INSERT INTO empleados (nombre, edad, ciudad, salario) VALUES
 
 ```
 
-## Usar Script
+## Usar Script 
 
+Para facilitar la ejecucion , exporte el script en scrip.sql , y mediante ese comando poner agregarlo en la base de datos , mas la inserccion de datos
 ```sh
 python create_db.py
 ```
 
 ## Inicializar
+
+Para iniciar la prueba solo usar este comando
 
 ```sh
 python conect_db_grafic.py
